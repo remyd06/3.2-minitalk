@@ -4,13 +4,13 @@ Minitalk is a project developed at the 42 school, designed to implement a commun
 
 ## Table of Contents 📋
 
-- [Introduction 🚀](#introduction-🚀)
+- [Introduction 🚀](#introduction-)
 - [Features ✨](#features-)
 - [Installation ⚙️](#installation-)
 - [Usage 🖥️](#usage-)
 - [Code Overview 🧩](#code-overview-)
 - [Makefile 🛠️](#makefile-)
-- [Testing 🧪](#testing-)
+- [Testing](#testing)
 
 ## Introduction  🚀
 
@@ -95,7 +95,7 @@ make re
 ```
 The Makefile will automatically compile the necessary dependencies, including linking with the libftprintf library for formatted output.
 
-## Testing  🧪
+## Testing
 
 **1. Start the server:**
 ```bash
