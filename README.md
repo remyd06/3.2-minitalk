@@ -4,13 +4,13 @@ Minitalk is a project developed at the 42 school, designed to implement a commun
 
 ## Table of Contents 📋
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Code Overview](#code-overview)
-- [Makefile](#makefile)
-- [Testing](#testing)
+- [Introduction](##introduction)
+- [Features](##features)
+- [Installation](##installation)
+- [Usage](##usage)
+- [Code Overview](##code-overview)
+- [Makefile](##makefile)
+- [Testing](##testing)
 
 ## Introduction  🚀
 
