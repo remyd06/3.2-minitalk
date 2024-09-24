@@ -9,7 +9,7 @@ Minitalk is a project developed at the 42 school, designed to implement a commun
 - [Installation ⚙️](#installation-)
 - [Usage 🖥️](#usage-)
 - [Code Overview 🧩](#code-overview-)
-- [Makefile 🛠️](#makefile)
+- [Makefile 🛠️](#makefile-)
 - [Testing 🧪](#testing-)
 
 ## Introduction 🚀
@@ -74,7 +74,7 @@ Key functions:
 - ```ft_memcpy(void *dest, const void *src, size_t n)```: Copies memory from source to destination.
 - ```ft_realloc(char *ptr, size_t old_size, size_t new_size)```: Resizes memory blocks dynamically.
 
-## MakeFile
+## MakeFile 🛠️
 
 The Makefile includes rules to compile both the server and client programs, along with rules for cleaning and recompiling the project.
 - Build both programs:
