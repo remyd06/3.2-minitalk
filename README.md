@@ -33,3 +33,12 @@ To get started with Minitalk, clone the repository and compile the project using
 git clone https://github.com/remyd06/3.2-minitalk.git
 cd 3.2-minitalk
 make
+```
+This will compile both the server and client executables.
+
+## Usage
+
+# Running the Server
+Start the server by running:
+
+
