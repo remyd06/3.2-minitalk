@@ -10,9 +10,9 @@ Minitalk is a project developed at the 42 school, designed to implement a commun
 - [Usage 🖥️](#usage-)
 - [Code Overview 🧩](#code-overview-)
 - [Makefile 🛠️](#makefile-)
-- [Testing](#testing)
+- [Testing 🧪](#testing-)
 
-## Introduction  🚀
+## Introduction 🚀
 
 Minitalk is a simple client-server system that uses ***SIGUSR1*** and ***SIGUSR2*** signals to transmit a message one bit at a time. This project is a great way to get familiar with signal handling in Unix-like systems, and it serves as a learning exercise in low-level system programming. The server listens for incoming messages, while the client encodes a message bit by bit and sends it to the server.
 
@@ -55,7 +55,7 @@ For example:
 ```
 This will send the message ***"Hello, Server!"*** to the server with ***PID 12345***.
 
-## Code Overview  🧩
+## Code Overview 🧩
 
 **Server**
 The server waits for incoming signals, processes each bit received from the client, and reconstructs the message. When the message is complete, it prints it to the console.
@@ -74,7 +74,7 @@ Key functions:
 - ```ft_memcpy(void *dest, const void *src, size_t n)```: Copies memory from source to destination.
 - ```ft_realloc(char *ptr, size_t old_size, size_t new_size)```: Resizes memory blocks dynamically.
 
-## MakeFile  🛠️
+## MakeFile 🛠️
 
 The Makefile includes rules to compile both the server and client programs, along with rules for cleaning and recompiling the project.
 - Build both programs:
@@ -95,7 +95,7 @@ make re
 ```
 The Makefile will automatically compile the necessary dependencies, including linking with the libftprintf library for formatted output.
 
-## Testing
+## Testing 🧪
 
 **1. Start the server:**
 ```bash
