@@ -60,20 +60,19 @@ This will send the message ***"Hello, Server!"*** to the server with ***PID 1234
 **Server**
 The server waits for incoming signals, processes each bit received from the client, and reconstructs the message. When the message is complete, it prints it to the console.
 Key functions:
-- ft_handler(int signal, siginfo_t *info, void *context): Handles signals from the client.
-- cat_msg(int msg, int j, int act): Reconstructs the message bit by bit.
+- ```ft_handler(int signal, siginfo_t *info, void *context)```: Handles signals from the client.
+- ```cat_msg(int msg, int j, int act)```: Reconstructs the message bit by bit.
 
 **Client**
 The client encodes the message into bits and sends each bit as a signal to the server. It sends **SIGUSR1** for a binary *1* and **SIGUSR2** for a binary *0*.
 Key functions:
-- ft_atoi(char *str): Converts a string to an integer (used for PID).
-- ft_memcpy(void *dest, const void *src, size_t n): Copies memory from source to destination.
-- ft_realloc(char *ptr, size_t old_size, size_t new_size): Resizes memory blocks dynamically.
+- ```send_msg(int pid, char i)```: Sends each character as 8 bits to the server.
+- ```check_message(int signum)```: Confirms message delivery from the server.
 
 **Utility Functions**
-- ft_atoi(char *str): Converts a string to an integer (used for PID).
-- ft_memcpy(void *dest, const void *src, size_t n): Copies memory from source to destination.
-- ft_realloc(char *ptr, size_t old_size, size_t new_size): Resizes memory blocks dynamically.
+- ```ft_atoi(char *str)```: Converts a string to an integer (used for PID).
+- ```ft_memcpy(void *dest, const void *src, size_t n)```: Copies memory from source to destination.
+- ```ft_realloc(char *ptr, size_t old_size, size_t new_size)```: Resizes memory blocks dynamically.
 
 ## MakeFile
 
