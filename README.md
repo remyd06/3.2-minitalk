@@ -9,7 +9,7 @@ Minitalk is a project developed at the 42 school, designed to implement a commun
 - [Installation ⚙️](#installation-)
 - [Usage 🖥️](#usage-)
 - [Code Overview 🧩](#code-overview-)
-- [Makefile 🛠️](#makefile-)
+- [Makefile 🛠️](#makefile)
 - [Testing 🧪](#testing-)
 
 ## Introduction 🚀
