@@ -4,7 +4,7 @@ Minitalk is a project developed at the 42 school, designed to implement a commun
 
 ## Table of Contents 📋
 
-- [Introduction 🚀](#introduction-)
+- [Introduction 🚀](#introduction-🚀)
 - [Features ✨](#features-)
 - [Installation ⚙️](#installation-)
 - [Usage 🖥️](#usage-)
