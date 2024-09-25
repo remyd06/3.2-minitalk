@@ -94,16 +94,24 @@ The Makefile will automatically compile the necessary dependencies, including li
 
 ![Server with *PID*](https://i.imgur.com/bjAdVo3.png)
 
-The server will print its *PID*.
+The server will print his *PID*.
 
 **2. Send a message from the client:**
 ```bash
 ./client [server_pid] "Your message here"
 ```
 
-![Server with *PID*](https://i.imgur.com/VlBVSN5.png)
+![CLient sending his message with the server *PID*](https://i.imgur.com/VlBVSN5.png)
 
 The client tell you *Server succesfully received your message.* if is the case.
 
+**3. Check if the server has succesfully received your message**
+
+![Server with the message from the client](https://i.imgur.com/AWbu1pb.png)
+
 **3. Bonus Testing:**
 Try running multiple clients simultaneously to test the server's ability to handle multiple incoming messages.
+
+![Multiple messages from clients](https://i.imgur.com/WFnHYIy.png)
+
+It works !
