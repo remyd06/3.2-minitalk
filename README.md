@@ -92,7 +92,7 @@ The Makefile will automatically compile the necessary dependencies, including li
 ./server
 ```
 
-![Server with *PID*](https://i.imgur.com/LFq2FuP.png)
+![Server with *PID*](https://i.imgur.com/bjAdVo3.png)
 
 The server will print its *PID*.
 
