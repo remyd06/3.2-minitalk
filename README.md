@@ -91,6 +91,8 @@ The Makefile will automatically compile the necessary dependencies, including li
 ```bash
 ./server
 ```
+![Server with *PID*](https://i.imgur.com/LFq2FuP.png)
+
 The server will print its *PID*.
 **2. Send a message from the client:**
 ```bash
