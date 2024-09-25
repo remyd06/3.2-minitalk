@@ -101,7 +101,7 @@ The server will print its *PID*.
 ./client [server_pid] "Your message here"
 ```
 
-![Server with *PID*](https://i.imgur.com/LFq2FuP.png)
+![Server with *PID*](https://i.imgur.com/VlBVSN5.png)
 
 The client tell you *Server succesfully received your message.* if is the case.
 
