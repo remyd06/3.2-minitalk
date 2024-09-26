@@ -103,7 +103,7 @@ The server will print his *PID*.
 
 ![CLient sending his message with the server *PID*](https://i.imgur.com/VlBVSN5.png)
 
-The client tell you *Server succesfully received your message.* if is the case.
+The client tell you *Server succesfully received your message.* if it's the case.
 
 **3. Check if the server has succesfully received your message**
 
